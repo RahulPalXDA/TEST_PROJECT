@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Predictor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container mt-5">
+  <h2>College/Hometown Prediction (Live Data)</h2>
+  <form method="post" class="row g-3 mb-4">
+    <div class="col-md-4">
+      <label class="form-label">Hometown:</label>
+      <select class="form-select" name="hometown">
+        <option value="">-- None --</option>
+        {% for town in hometowns %}
+        <option value="{{ town }}" {% if request.form.get('hometown') == town %}selected{% endif %}>{{ town }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">College Location:</label>
+      <select class="form-select" name="college_location">
+        <option value="">-- None --</option>
+        {% for loc in college_locations %}
+        <option value="{{ loc }}" {% if request.form.get('college_location') == loc %}selected{% endif %}>{{ loc }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">Annual Income (₹):</label>
+      <input type="number" class="form-control" name="annual_income" value="{{ request.form.get('annual_income', '') }}">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-success w-100">Predict</button>
+    </div>
+  </form>
+
+  {% if prediction %}
+    {% if prediction.type == 'college' %}
+      <div class="alert alert-info">
+        <h4>Prediction Result:</h4>
+        <p><strong>Likely College:</strong> {{ prediction.college }}</p>
+        <p><strong>Confidence:</strong> {{ prediction.confidence }} ({{ prediction.used_model }})</p>
+        <p><strong>Number of Students:</strong> {{ prediction.student_count }}</p>
+        <p><strong>Average Annual Income:</strong> ₹{{ prediction.avg_income | comma_format }}</p>
+        <p><strong>Most Common Hometowns:</strong></p>
+        <ul>
+          {% for town, count in prediction.common_hometowns %}
+            <li>{{ town }} ({{ count }} students)</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% if recommended_colleges %}
+        <div class="alert alert-secondary">
+          <h5>Recommended Colleges in {{ request.form.get('college_location') }}:</h5>
+          <ul>
+            {% for college in recommended_colleges %}
+              <li>{{ college }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% elif prediction.type == 'hometown' %}
+      <div class="alert alert-info">
+        <h4>Prediction Result:</h4>
+        <p><strong>Likely Hometown:</strong> {{ prediction.hometown }}</p>
+        <p><strong>Confidence:</strong> {{ prediction.confidence }} ({{ prediction.used_model }})</p>
+        <p><strong>Number of Students:</strong> {{ prediction.student_count }}</p>
+        <p><strong>Average Annual Income:</strong> ₹{{ prediction.avg_income | comma_format }}</p>
+        <p><strong>Most Common Colleges:</strong></p>
+        <ul>
+          {% for college, count in prediction.common_colleges %}
+            <li>{{ college }} ({{ count }} students)</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% if recommended_hometowns %}
+        <div class="alert alert-secondary">
+          <h5>Recommended Hometowns for {{ request.form.get('college_location') }}:</h5>
+          <ul>
+            {% for htown in recommended_hometowns %}
+              <li>{{ htown }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+  {% endif %}
+
+  <p class="mt-3"><a class="btn btn-secondary" href="{{ url_for('admin_dashboard') }}">Back to Dashboard</a></p>
+</div>
+</body>
+</html>

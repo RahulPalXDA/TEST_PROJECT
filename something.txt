@@ -1,0 +1,8 @@
+
+    income_groups = [
+        ('<4.8L', 'annual_income < 480000'),
+        ('4.8L-7.7L', 'annual_income BETWEEN 480000 AND 770000'),
+        ('7.7L-10.2L', 'annual_income BETWEEN 770000 AND 1020000'),
+        ('10.2L-13.8L', 'annual_income BETWEEN 1020000 AND 1380000'),
+        ('>13.8L', 'annual_income > 1380000')
+    ]

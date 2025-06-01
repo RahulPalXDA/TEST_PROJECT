@@ -1,0 +1,19 @@
+<nav>
+  <ul class="pagination justify-content-center">
+    {% if current_page > 1 %}
+      <li class="page-item">
+        <a class="page-link" href="{{ url_for(request.endpoint, page=current_page-1) }}">&lt;</a>
+      </li>
+    {% endif %}
+    {% for p in pagination_window %}
+      <li class="page-item {% if p == current_page %}active{% endif %}">
+        <a class="page-link" href="{{ url_for(request.endpoint, page=p) }}">{{ p }}</a>
+      </li>
+    {% endfor %}
+    {% if current_page < total_pages %}
+      <li class="page-item">
+        <a class="page-link" href="{{ url_for(request.endpoint, page=current_page+1) }}">&gt;</a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

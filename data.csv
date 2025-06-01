@@ -1,0 +1,379 @@
+Student Name,Annual Income (₹),Hometown,College Name,College Location
+Aarav Chatterjee,780000,Kolkata,Jadavpur University,Kolkata
+Priyanka Roy,1250000,Asansol,Indian Institute of Engineering Science and Technology,Shibpur
+Soumitra Das,540000,Siliguri,University of North Bengal,Siliguri
+Ananya Ghosh,960000,Durgapur,National Institute of Technology,Durgapur
+Debayan Banerjee,310000,Malda,Kalyani Government Engineering College,Kalyani
+Rituparna Mukherjee,1120000,Howrah,St. Xavier's College,Kolkata
+Bikram Sen,680000,Bardhaman,University of Burdwan,Bardhaman
+Tanusree Saha,420000,Kharagpur,Indian Institute of Technology,Kharagpur
+Indrajit Bose,1530000,Darjeeling,St. Joseph's College,Darjeeling
+Nandini Dutta,870000,Haldia,Haldia Institute of Technology,Haldia
+Arjun Pal,590000,Krishnanagar,Krishnath College,Krishnanagar
+Poulami Mondal,1010000,Ranaghat,Maulana Azad College,Kolkata
+Sagnik Chakraborty,720000,Jalpaiguri,Jalpaiguri Government Engineering College,Jalpaiguri
+Kasturi Nath,380000,Balurghat,University of Gour Banga,Malda
+Rajesh Basu,1350000,Bankura,Bankura Unnayani Institute of Engineering,Bankura
+Lopamudra Guha,920000,Birbhum,Birbhum Mahavidyalaya,Birbhum
+Subhash Sarkar,670000,Cooch Behar,Acharya Brojendra Nath Seal College,Cooch Behar
+Urmi Chatterjee,490000,Alipurduar,Alipurduar College,Alipurduar
+Gautam Roy,1160000,Purulia,Purulia Government Engineering College,Purulia
+Sneha Das,810000,Midnapore,Midnapore College,Midnapore
+Rohan Banik,620000,Barasat,Barasat Government College,Barasat
+Ipsita Sengupta,1420000,Kalyani,Kalyani University,Kalyani
+Debdatta Ghosal,530000,Baharampur,Berhampore College,Baharampur
+Sarmistha Mitra,890000,Serampore,Serampore College,Serampore
+Anirban Dey,1140000,Dum Dum,Techno India University,Dum Dum
+Piyali Sanyal,470000,Raiganj,Raiganj University,Raiganj
+Sourav Poddar,1230000,English Bazar,Malda College,Malda
+Tithi Bera,710000,Bishnupur,Bishnupur Ramananda College,Bishnupur
+Amitava Kundu,960000,Chinsurah,Hooghly Mohsin College,Chinsurah
+Sreeparna Roy,580000,Jhargram,Jhargram Raj College,Jhargram
+Nilanjan Adhikari,1320000,Basirhat,Basirhat College,Basirhat
+Sohini Basak,410000,Tamluk,Vidyasagar University,Tamluk
+Rajdeep Majumder,850000,Chandannagar,Chandannagar Government College,Chandannagar
+Swagata Bose,1090000,Bolpur,Bolpur College,Bolpur
+Shibaji Dasgupta,690000,Dankuni,Dankuni Government College,Dankuni
+Moumita Halder,1180000,Bangaon,Bangaon Mahavidyalaya,Bangaon
+Arup Naskar,520000,Contai,Contai College,Contai
+Poulomi Saha,940000,Islampur,Islampur College,Islampur
+Siddhartha Mukhopadhyay,1270000,Rampurhat,Rampurhat College,Rampurhat
+Anwesha Pal,360000,Falakata,Falakata College,Falakata
+Bodhisattwa Banerjee,1030000,Diamond Harbour,Diamond Harbour College,Diamond Harbour
+Chandrani Sen,780000,Baruipur,Baruipur College,Baruipur
+Dipankar Roy,1450000,Ghatal,Ghatal Rabindra Satabarsiki Mahavidyalaya,Ghatal
+Esha Ghoshal,610000,Jalangi,Jalangi College,Jalangi
+Farhan Ali,920000,Murshidabad,Murshidabad College,Murshidabad
+Gargi Mandal,1130000,Tehatta,Tehatta Government College,Tehatta
+Hiranmay Dutta,830000,Memari,Memari College,Memari
+Indrani Bhattacharya,760000,Canning,Canning College,Canning
+Joydeep Sarkar,1290000,Bally,Ballygunge Science College,Kolkata
+Koyel Das,570000,Katwa,Katwa College,Katwa
+Lipika Roy,980000,Nabadwip,Nabadwip Vidyasagar College,Nabadwip
+Madhumita Saha,1070000,Madarihat,Madarihat College,Madarihat
+Nabendu Biswas,440000,Mathabhanga,Mathabhanga College,Mathabhanga
+Oindrilla Banik,1210000,Sonarpur,Bhangar College,South 24 Parganas
+Partha Pratim Das,670000,Phulia,Phulia College,Phulia
+Quazi Rahman,890000,Chakdaha,Chakdaha College,Chakdaha
+Ritobroto Mukherjee,1360000,Bagdogra,Bagdogra College,Bagdogra
+Sampurna Ghosh,510000,Panagarh,Panagarh College,Panagarh
+Tanushree Nath,1150000,Hasnabad,Hasnabad College,Hasnabad
+Udayaditya Sen,790000,Haripal,Haripal College,Haripal
+Vivek Agarwal,1430000,Beldanga,Beldanga College,Beldanga
+Yashaswi Bose,620000,Guskara,Guskara College,Guskara
+Zareen Khan,950000,Dinhata,Dinhata College,Dinhata
+Abhijit Dey,1080000,Mekhliganj,Mekhliganj College,Mekhliganj
+Baisakhi Roy,730000,Cooch Behar,Cooch Behar College,Cooch Behar
+Chandana Saha,1260000,Dhubulia,Krishnanagar College,Krishnanagar
+Deepanwita Banerjee,480000,Ashoknagar,Ashoknagar College,Ashoknagar
+Eshani Das,1370000,Baranagar,Baranagar College,Baranagar
+Firoza Bibi,850000,Kalimpong,Kalimpong College,Kalimpong
+Gautam Malakar,990000,Jorebunglow,Jorebunglow College,Darjeeling
+Himadri Chakraborty,1160000,Chandrakona,Chandrakona College,Chandrakona
+Ishani Ghosh,710000,Amta,Amta College,Amta
+Jayanta Basu,1240000,Uluberia,Uluberia College,Uluberia
+Kakoli Sen,560000,Champadanga,Champadanga College,Champadanga
+Laboni Naskar,1020000,Debra,Debra College,Debra
+Moumita Pal,880000,Panskura,Panskura College,Panskura
+Nihar Ranjan Das,1490000,Sonamukhi,Sonamukhi College,Sonamukhi
+Oishik Banik,770000,Kulti,Kulti College,Kulti
+Pranati Saha,1190000,Raniganj,Raniganj College,Raniganj
+Qutubuddin Ahmed,630000,Farakka,Farakka College,Farakka
+Rohini Roy,1340000,Kakdwip,Kakdwip College,Kakdwip
+Satyaki Bose,910000,Dhupguri,Dhupguri College,Dhupguri
+Tapasi Mondal,1050000,Maynaguri,Maynaguri College,Maynaguri
+Utsav Ghosh,820000,Belur,Belur College,Belur
+Vidya Banerjee,1580000,Bagnan,Bagnan College,Bagnan
+Wasim Akram,690000,Gaighata,Gaighata College,Gaighata
+Yagnik Das,1130000,Harirampur,Harirampur College,Harirampur
+Zulekha Begum,970000,Gangarampur,Gangarampur College,Gangarampur
+Abhinaba Sarkar,720000,Kamarpukur,Kamarpukur College,Kamarpukur
+Bidisha Roy,1410000,Gopiballavpur,Gopiballavpur College,Gopiballavpur
+Chiranjeet Adhikari,580000,Mirik,Mirik College,Mirik
+Debolina Mitra,1290000,Madhupur,Madhupur College,Madhupur
+Epsita Halder,870000,Chhatna,Chhatna College,Chhatna
+Farid Hussain,1110000,Kalna,Kalna College,Kalna
+Gouri Shankar Das,1540000,Sainthia,Sainthia College,Sainthia
+Hridyesh Mukherjee,780000,Tufanganj,Tufanganj College,Tufanganj
+Iman Chatterjee,1350000,Jangipur,Jangipur College,Jangipur
+Jhinuk Saha,920000,Itahar,Itahar College,Itahar
+Koushik Banerjee,1060000,Kharagpur,Kharagpur College,Kharagpur
+Lila Das,680000,Salboni,Salboni College,Salboni
+Mohan Sarkar,1180000,Alipurduar,Alipurduar College,Alipurduar
+Nandita Roy,1430000,Chandipur,Chandipur College,Chandipur
+Oindrila Biswas,990000,Birnagar,Birnagar College,Birnagar
+Pratyusha Ghosh,1270000,Dalkhola,Dalkhola College,Dalkhola
+Quamar Ali,740000,Karimpur,Karimpur College,Karimpur
+Ruma Das,1120000,Habra,Habra College,Habra
+Soumen Pal,1560000,Garia,Garia College,Kolkata
+Tanusree Dutta,810000,Barrackpore,Barrackpore College,Barrackpore
+Ujjwal Sen,1380000,Champahati,Champahati College,Champahati
+Vikramjit Singh,950000,Budge Budge,Budge Budge College,Budge Budge
+Yashodhara Bose,720000,Howrah,Howrah College,Howrah
+Zafar Iqbal,1240000,Naihati,Naihati College,Naihati
+Ayan Das,1030000,Udaynarayanpur,Udaynarayanpur College,Udaynarayanpur
+Brishti Banerjee,890000,Sankrail,Sankrail College,Sankrail
+Chandrabali De,1470000,Amdanga,Amdanga College,Amdanga
+Debashish Roy,610000,Gangarampur,Gangarampur College,Gangarampur
+Emon Ghosh,1320000,Kalyani,Kalyani University,Kalyani
+Falak Ara,980000,Dum Dum,Dum Dum College,Dum Dum
+Gopal Saha,1150000,Barasat,Barasat College,Barasat
+Himani Das,840000,Basanti,Basanti College,Basanti
+Indrajeet Bose,1570000,Canning,Canning College,Canning
+Jayita Sen,1090000,Bally,Bally College,Bally
+Kiranmala Devi,760000,Konnagar,Konnagar College,Konnagar
+Lalita Roy,1420000,Chandannagar,Chandannagar College,Chandannagar
+Manasij Majumder,910000,Bhadreswar,Bhadreswar College,Bhadreswar
+Nabanita Ghosh,1280000,Uttarpara,Uttarpara College,Uttarpara
+Omar Farooq,680000,Rishra,Rishra College,Rishra
+Pallabi Sarkar,1190000,Serampore,Serampore College,Serampore
+Qanita Khatun,1050000,Baidyabati,Baidyabati College,Baidyabati
+Rudra Narayan Das,1530000,Bansberia,Bansberia College,Bansberia
+Snehasish Basu,970000,Chinsurah,Chinsurah College,Chinsurah
+Tathagata Banik,1160000,Hooghly,Hooghly College,Hooghly
+Urmimala Basak,820000,Dankuni,Dankuni College,Dankuni
+Vidhan Chatterjee,1390000,Kamarkundu,Kamarkundu College,Kamarkundu
+Wasima Khatun,1070000,Arambag,Arambag College,Arambag
+Xavier Gomes,740000,Bandel,Bandel College,Bandel
+Yasin Malik,1260000,Chanditala,Chanditala College,Chanditala
+Zinnia Roy,980000,Jangipara,Jangipara College,Jangipara
+Arijit Bose,1140000,Pandua,Pandua College,Pandua
+Bela Debnath,890000,Khanakul,Khanakul College,Khanakul
+Chandrakanta Das,1610000,Goghat,Goghat College,Goghat
+Diptendu Sarkar,720000,Dhaniakhali,Dhaniakhali College,Dhaniakhali
+Elina Mondal,1350000,Haripal,Haripal College,Haripal
+Fahimuddin Ahmed,1040000,Tarakeswar,Tarakeswar College,Tarakeswar
+Gitanjali Sen,1180000,Singur,Singur College,Singur
+Hiren Nandi,970000,Chandrakona,Chandrakona College,Chandrakona
+Ipshita Ghosh,1490000,Daspur,Daspur College,Daspur
+Jaya Saha,830000,Ghatal,Ghatal College,Ghatal
+Koushani Roy,1240000,Deuli,Deuli College,Deuli
+Laltu Das,1120000,Keshpur,Keshpur College,Keshpur
+Madhurima Banik,1570000,Salbani,Salbani College,Salbani
+Nirmalya Pal,1080000,Medinipur,Medinipur College,Medinipur
+Omar Sharif,760000,Narayangarh,Narayangarh College,Narayangarh
+Piyush Karmakar,1320000,Kharagpur,Kharagpur College,Kharagpur
+Quazi Nehal,1190000,Dantan,Dantan College,Dantan
+Ritam Sengupta,990000,Keshiari,Keshiari College,Keshiari
+Sourav Das,1450000,Mohanpur,Mohanpur College,Mohanpur
+Tulika Ghosh,870000,Nandigram,Nandigram College,Nandigram
+Uday Saha,1680000,Contai,Contai College,Contai
+Vikash Mandal,1160000,Egra,Egra College,Egra
+Yashika Roy,1010000,Patashpur,Patashpur College,Patashpur
+Zeba Hussain,790000,Bhupatinagar,Bhupatinagar College,Bhupatinagar
+Abhilash Tiwari,1380000,Tamluk,Tamluk College,Tamluk
+Bikash Halder,1270000,Mahisadal,Mahisadal College,Mahisadal
+Champa Devi,940000,Sutahata,Sutahata College,Sutahata
+Debasish Mondal,1530000,Haldia,Haldia College,Haldia
+Eva Rahman,1120000,Nandakumar,Nandakumar College,Nandakumar
+Farhan Malik,1020000,Potashpur,Potashpur College,Potashpur
+Goutam Das,1760000,Bhagabanpur,Bhagabanpur College,Bhagabanpur
+Hena Parvin,880000,Khejuri,Khejuri College,Khejuri
+Ishaan Sharma,1410000,Ramnagar,Ramnagar College,Ramnagar
+Joyita Roy,1190000,Digha,Digha College,Digha
+Krishanu Naskar,1070000,Mandarmani,Mandarmani College,Mandarmani
+Lipika Sarkar,1620000,Tajpur,Tajpur College,Tajpur
+Mousumi Das,980000,Shankarpur,Shankarpur College,Shankarpur
+Nayanika Bose,1340000,Digha,Digha College,Digha
+Oishik Sen,1230000,Kanthi,Kanthi College,Kanthi
+Pratap Chandra,1110000,Contai,Contai College,Contai
+Quddus Ali,990000,Deshapran,Deshapran College,Deshapran
+Rohit Shaw,1820000,Bahiri,Bahiri College,Bahiri
+Smita Roy,1450000,Junput,Junput College,Junput
+Tanmay Ghoshal,1280000,Kukrahati,Kukrahati College,Kukrahati
+Utsha Das,1180000,Chandanpur,Chandanpur College,Chandanpur
+Vivekananda Roy,1560000,Barada,Barada College,Barada
+Yuvraj Singh,1320000,Hijli,Hijli College,Hijli
+Zarina Begum,1090000,Kolaghat,Kolaghat College,Kolaghat
+Amit Sharma,1490000,Panskura,Panskura College,Panskura
+Bina Pradhan,1370000,Deulti,Deulti College,Deulti
+Chandan Maity,1680000,Uluberia,Uluberia College,Uluberia
+Dulal Das,1260000,Bagnan,Bagnan College,Bagnan
+Ena Das,1150000,Amta,Amta College,Amta
+Firoj Khan,1030000,Udaynarayanpur,Udaynarayanpur College,Udaynarayanpur
+Golap Haldar,1920000,Jagatballavpur,Jagatballavpur College,Jagatballavpur
+Haradhan Malik,1420000,Domjur,Domjur College,Domjur
+Ilias Mondal,1310000,Bally,Bally College,Bally
+Jhumpa Roy,1190000,Howrah,Howrah College,Howrah
+Kaberi Dutta,1050000,Kalna,Kalna College,Kalna
+Lalit Kumar,1530000,Burdwan,University of Burdwan,Burdwan
+Mousam Roy,890000,Bolpur,Visva-Bharati University,Santiniketan
+Nandita Banerjee,1420000,Krishnanagar,Krishnanagar College,Krishnanagar
+Oindrila Chakraborty,1160000,Durgapur,National Institute of Technology,Durgapur
+Pritam Saha,780000,Malda,Malda College,Malda
+Qutubuddin Khan,1690000,Murshidabad,Murshidabad College,Murshidabad
+Rohit Sharma,1380000,Siliguri,North Bengal University,Siliguri
+Snehalata Das,1120000,Jalpaiguri,Jalpaiguri Government Engineering College,Jalpaiguri
+Tapan Biswas,980000,Cooch Behar,Acharya Brojendra Nath Seal College,Cooch Behar
+Urmila Devi,1240000,Alipurduar,Alipurduar College,Alipurduar
+Vikrant Singh,1560000,Purulia,Purulia Government Engineering College,Purulia
+Yashwant Kumar,1320000,Midnapore,Midnapore College,Midnapore
+Zeba Khanum,1190000,Bankura,Bankura Unnayani Institute of Engineering,Bankura
+Arindam Sarkar,1070000,Birbhum,Birbhum Mahavidyalaya,Birbhum
+Bidhan Roy,1450000,Howrah,St. Xavier's College,Kolkata
+Chayanika Sen,920000,Kharagpur,Indian Institute of Technology,Kharagpur
+Debashis Dutta,1680000,Darjeeling,St. Joseph's College,Darjeeling
+Eshita Ghosh,1120000,Haldia,Haldia Institute of Technology,Haldia
+Falguni Pathak,980000,Ranaghat,Maulana Azad College,Kolkata
+Gopal Chandra,1340000,Jalpaiguri,Jalpaiguri Government Engineering College,Jalpaiguri
+Himanshu Tiwari,1420000,Balurghat,University of Gour Banga,Malda
+Indrani Bose,1190000,Barasat,Barasat Government College,Barasat
+Jaydeep Mukherjee,1070000,Kalyani,Kalyani University,Kalyani
+Koyelika Das,1530000,Baharampur,Berhampore College,Baharampur
+Lakshman Seth,980000,Serampore,Serampore College,Serampore
+Madhabi Roy,1240000,Dum Dum,Techno India University,Dum Dum
+Naresh Pal,1380000,Raiganj,Raiganj University,Raiganj
+Omprakash Verma,1120000,English Bazar,Malda College,Malda
+Pallav Majumder,1560000,Bishnupur,Bishnupur Ramananda College,Bishnupur
+Qamar Jahan,1190000,Chinsurah,Hooghly Mohsin College,Chinsurah
+Ratan Kumar,1420000,Jhargram,Jhargram Raj College,Jhargram
+Sanghamitra Banerjee,1070000,Basirhat,Basirhat College,Basirhat
+Tuhin Ghosh,980000,Tamluk,Vidyasagar University,Tamluk
+Ujjaini Roy,1240000,Chandannagar,Chandannagar Government College,Chandannagar
+Vidyut Bose,1560000,Bolpur,Bolpur College,Bolpur
+Yamin Haque,1320000,Dankuni,Dankuni Government College,Dankuni
+Zainul Abedin,1190000,Bangaon,Bangaon Mahavidyalaya,Bangaon
+Abhisek Banerjee,1070000,Contai,Contai College,Contai
+Bhaswati Mukherjee,1450000,Islampur,Islampur College,Islampur
+Chinmoy Ghosh,920000,Rampurhat,Rampurhat College,Rampurhat
+Deepanjana Das,1680000,Falakata,Falakata College,Falakata
+Epsita Saha,1120000,Diamond Harbour,Diamond Harbour College,Diamond Harbour
+Faruk Ahmed,980000,Baruipur,Baruipur College,Baruipur
+Gourhari Pramanik,1340000,Ghatal,Ghatal Rabindra Satabarsiki Mahavidyalaya,Ghatal
+Hafizul Rahman,1420000,Jalangi,Jalangi College,Jalangi
+Ipsita Mondal,1190000,Murshidabad,Murshidabad College,Murshidabad
+Jagannath Das,1070000,Tehatta,Tehatta Government College,Tehatta
+Kakali Roy,1530000,Memari,Memari College,Memari
+Lakshmi Kanta,980000,Canning,Canning College,Canning
+Mriganka Sekhar,1240000,Bally,Ballygunge Science College,Kolkata
+Niharika Singh,1380000,Katwa,Katwa College,Katwa
+Oindrilla Sen,1120000,Nabadwip,Nabadwip Vidyasagar College,Nabadwip
+Partha Sarathi,1560000,Madarihat,Madarihat College,Madarihat
+Qutubuddin Molla,1190000,Mathabhanga,Mathabhanga College,Mathabhanga
+Rabin Dey,1420000,Sonarpur,Bhangar College,South 24 Parganas
+Sabita Devi,1070000,Phulia,Phulia College,Phulia
+Tarak Nath,980000,Chakdaha,Chakdaha College,Chakdaha
+Uday Kumar,1240000,Bagdogra,Bagdogra College,Bagdogra
+Vikramaditya Sen,1560000,Panagarh,Panagarh College,Panagarh
+Yasin Ali,1320000,Hasnabad,Hasnabad College,Hasnabad
+Zeba Parvin,1190000,Haripal,Haripal College,Haripal
+Alok Nath,1070000,Beldanga,Beldanga College,Beldanga
+Bani Basu,1450000,Guskara,Guskara College,Guskara
+Chandana Das,920000,Dinhata,Dinhata College,Dinhata
+Debashree Roy,1680000,Mekhliganj,Mekhliganj College,Mekhliganj
+Eshwar Prasad,1120000,Cooch Behar,Cooch Behar College,Cooch Behar
+Firoza Khatun,980000,Dhubulia,Krishnanagar College,Krishnanagar
+Gopinath Deb,1340000,Ashoknagar,Ashoknagar College,Ashoknagar
+Habibur Sk,1420000,Baranagar,Baranagar College,Baranagar
+Ishwar Chandra,1190000,Kalimpong,Kalimpong College,Kalimpong
+Jayawardhan Roy,1070000,Jorebunglow,Jorebunglow College,Darjeeling
+Kartick Ghosh,1530000,Chandrakona,Chandrakona College,Chandrakona
+Laxmi Narayan,980000,Amta,Amta College,Amta
+Madan Mohan,1240000,Uluberia,Uluberia College,Uluberia
+Nabin Chandra,1380000,Champadanga,Champadanga College,Champadanga
+Omar Faruk,1120000,Debra,Debra College,Debra
+Pankaj Malik,1560000,Panskura,Panskura College,Panskura
+Quddus Sk,1190000,Sonamukhi,Sonamukhi College,Sonamukhi
+Rajiv Lochan,1420000,Kulti,Kulti College,Kulti
+Sachin Agarwal,1070000,Raniganj,Raniganj College,Raniganj
+Tanuja Sen,980000,Farakka,Farakka College,Farakka
+Urmila Das,1240000,Kakdwip,Kakdwip College,Kakdwip
+Vishal Kumar,1560000,Dhupguri,Dhupguri College,Dhupguri
+Yash Pal,1320000,Maynaguri,Maynaguri College,Maynaguri
+Ziaur Rahman,1190000,Belur,Belur College,Belur
+Anjali Sharma,1070000,Bagnan,Bagnan College,Bagnan
+Bikash Das,1450000,Gaighata,Gaighata College,Gaighata
+Chandrakala Devi,920000,Harirampur,Harirampur College,Harirampur
+Deepak Kumar,1680000,Gangarampur,Gangarampur College,Gangarampur
+Eti Roy,1120000,Kamarpukur,Kamarpukur College,Kamarpukur
+Firoj Alam,980000,Gopiballavpur,Gopiballavpur College,Gopiballavpur
+Gopal Krishna,1340000,Mirik,Mirik College,Mirik
+Harihar Roy,1420000,Madhupur,Madhupur College,Madhupur
+Iqbal Hussain,1190000,Chhatna,Chhatna College,Chhatna
+Jayanta Das,1070000,Kalna,Kalna College,Kalna
+Krishna Das,1530000,Sainthia,Sainthia College,Sainthia
+Lata Kumari,980000,Tufanganj,Tufanganj College,Tufanganj
+Manik Chandra,1240000,Jangipur,Jangipur College,Jangipur
+Nalini Das,1380000,Itahar,Itahar College,Itahar
+Obaidullah Sk,1120000,Kharagpur,Kharagpur College,Kharagpur
+Pranab Roy,1560000,Salboni,Salboni College,Salboni
+Qamrul Islam,1190000,Alipurduar,Alipurduar College,Alipurduar
+Raju Das,1420000,Chandipur,Chandipur College,Chandipur
+Samir Kumar,1070000,Birnagar,Birnagar College,Birnagar
+Tandra Devi,980000,Dalkhola,Dalkhola College,Dalkhola
+Umapati Roy,1240000,Karimpur,Karimpur College,Karimpur
+Vimal Kumar,1560000,Habra,Habra College,Habra
+Yamini Sen,1320000,Garia,Garia College,Kolkata
+Zahir Abbas,1190000,Barrackpore,Barrackpore College,Barrackpore
+Alpana Das,1070000,Champahati,Champahati College,Champahati
+Bimal Roy,1450000,Budge Budge,Budge Budge College,Budge Budge
+Chaya Devi,920000,Howrah,Howrah College,Howrah
+Dilip Kumar,1680000,Naihati,Naihati College,Naihati
+Eva Roy,1120000,Udaynarayanpur,Udaynarayanpur College,Udaynarayanpur
+Fateh Mohammad,980000,Sankrail,Sankrail College,Sankrail
+Ganesh Das,1340000,Amdanga,Amdanga College,Amdanga
+Hasan Ali,1420000,Gangarampur,Gangarampur College,Gangarampur
+Iffat Ara,1190000,Kalyani,Kalyani University,Kalyani
+Jasmin Khatun,1070000,Dum Dum,Dum Dum College,Dum Dum
+Kalpana Roy,1530000,Barasat,Barasat College,Barasat
+Lila Devi,980000,Basanti,Basanti College,Basanti
+Mantu Das,1240000,Canning,Canning College,Canning
+Nazma Khatun,1380000,Bally,Bally College,Bally
+Omar Ali,1120000,Konnagar,Konnagar College,Konnagar
+Papia Saha,1560000,Chandannagar,Chandannagar College,Chandannagar
+Qasim Ali,1190000,Bhadreswar,Bhadreswar College,Bhadreswar
+Rahul Das,1420000,Uttarpara,Uttarpara College,Uttarpara
+Samina Begum,1070000,Rishra,Rishra College,Rishra
+Tania Khatun,980000,Serampore,Serampore College,Serampore
+Urmi Bose,1240000,Baidyabati,Baidyabati College,Baidyabati
+Vinod Kumar,1560000,Bansberia,Bansberia College,Bansberia
+Yusuf Khan,1320000,Chinsurah,Chinsurah College,Chinsurah
+Zulekha Bibi,1190000,Hooghly,Hooghly College,Hooghly
+Anima Roy,1070000,Dankuni,Dankuni College,Dankuni
+Biren Das,1450000,Kamarkundu,Kamarkundu College,Kamarkundu
+Chandni Begum,920000,Arambag,Arambag College,Arambag
+Dipak Roy,1680000,Bandel,Bandel College,Bandel
+Eti Das,1120000,Chanditala,Chanditala College,Chanditala
+Ful Mia,980000,Jangipara,Jangipara College,Jangipara
+Golam Mostafa,1340000,Pandua,Pandua College,Pandua
+Hena Das,1420000,Khanakul,Khanakul College,Khanakul
+Imran Khan,1190000,Goghat,Goghat College,Goghat
+Julekha Bibi,1070000,Dhaniakhali,Dhaniakhali College,Dhaniakhali
+Kartik Das,1530000,Haripal,Haripal College,Haripal
+Laltu Roy,980000,Tarakeswar,Tarakeswar College,Tarakeswar
+Mamoni Das,1240000,Singur,Singur College,Singur
+Nasima Khatun,1380000,Chandrakona,Chandrakona College,Chandrakona
+Oliur Rahman,1120000,Daspur,Daspur College,Daspur
+Pijush Kanti,1560000,Ghatal,Ghatal College,Ghatal
+Quazi Selim,1190000,Deuli,Deuli College,Deuli
+Rafiqul Islam,1420000,Keshpur,Keshpur College,Keshpur
+Sabina Yasmin,1070000,Salbani,Salbani College,Salbani
+Tapan Das,980000,Medinipur,Medinipur College,Medinipur
+Ujjwal Kumar,1240000,Narayangarh,Narayangarh College,Narayangarh
+Vishnu Das,1560000,Kharagpur,Kharagpur College,Kharagpur
+Yasin Sk,1320000,Dantan,Dantan College,Dantan
+Zakir Hussain,1190000,Keshiari,Keshiari College,Keshiari
+Abul Kashem,1070000,Mohanpur,Mohanpur College,Mohanpur
+Bina Das,1450000,Nandigram,Nandigram College,Nandigram
+Chhabi Roy,920000,Contai,Contai College,Contai
+Dilip Das,1680000,Egra,Egra College,Egra
+Emon Das,1120000,Patashpur,Patashpur College,Patashpur
+Firoja Khatun,980000,Bhupatinagar,Bhupatinagar College,Bhupatinagar
+Ganesh Roy,1340000,Tamluk,Tamluk College,Tamluk
+Harun Sk,1420000,Mahisadal,Mahisadal College,Mahisadal
+Ishita Roy,1190000,Sutahata,Sutahata College,Sutahata
+Jahangir Alam,1070000,Haldia,Haldia College,Haldia
+Kalam Sk,1530000,Nandakumar,Nandakumar College,Nandakumar
+Lakhan Das,980000,Potashpur,Potashpur College,Potashpur
+Manju Das,1240000,Bhagabanpur,Bhagabanpur College,Bhagabanpur
+Nazrul Islam,1380000,Khejuri,Khejuri College,Khejuri
+Omaruddin Sk,1120000,Ramnagar,Ramnagar College,Ramnagar
+Pijush Das,1560000,Digha,Digha College,Digha
+Quader Ali,1190000,Mandarmani,Mandarmani College,Mandarmani
+Raju Das,1420000,Tajpur,Tajpur College,Tajpur
+Samar Das,1070000,Shankarpur,Shankarpur College,Shankarpur
+Tara Devi,980000,Digha,Digha College,Digha
+Uttam Kumar,1240000,Kanthi,Kanthi College,Kanthi
+Vikash Das,1560000,Contai,Contai College,Contai
+Yasin Ali,1320000,Deshapran,Deshapran College,Deshapran
+Zakaria Sk,1190000,Bahiri,Bahiri College,Bahiri
