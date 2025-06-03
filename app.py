@@ -108,15 +108,16 @@ def admin_register():
         conn = sqlite3.connect('database.db')
         c = conn.cursor()
         try:
-            c.execute("INSERT INTO users (username, password, role) VALUES (?, ?, 'admin')",
+            c.execute("INSERT INTO users (username, password, role, approved) VALUES (?, ?, 'admin', 0)",
                       (request.form['username'], request.form['password']))
             conn.commit()
-            return redirect(url_for('admin_login'))
+            return "Registration submitted! Awaiting approval from an existing admin."
         except sqlite3.IntegrityError:
             return 'Username already exists'
         finally:
             conn.close()
     return render_template('admin_register.html')
+
 
 @app.route('/admin/login', methods=['GET', 'POST'])
 def admin_login():
@@ -127,12 +128,56 @@ def admin_login():
                   (request.form['username'],))
         user = c.fetchone()
         if user and user[2] == request.form['password']:
+            if user[4] != 1:  # Assuming approved is the 5th column (index 4)
+                return 'Your admin account is pending approval.'
             user_obj = User()
             user_obj.id = user[1]
             login_user(user_obj)
             return redirect(url_for('admin_dashboard'))
         return 'Invalid credentials'
     return render_template('admin_login.html')
+
+@app.route('/admin/approve', methods=['GET', 'POST'])
+@login_required
+def admin_approve():
+    if getattr(current_user, 'role', None) != 'admin':
+        return redirect(url_for('admin_login'))
+    conn = sqlite3.connect('database.db')
+    c = conn.cursor()
+    if request.method == 'POST':
+        approve_ids = request.form.getlist('approve')
+        for uid in approve_ids:
+            c.execute("UPDATE users SET approved=1 WHERE id=?", (uid,))
+        conn.commit()
+    c.execute("SELECT id, username FROM users WHERE role='admin' AND approved=0")
+    pending_admins = c.fetchall()
+    conn.close()
+    return render_template('admin_approve.html', pending_admins=pending_admins)
+
+@app.route('/admin/approve_single/<int:user_id>')
+@login_required
+def approve_single_admin(user_id):
+    if getattr(current_user, 'role', None) != 'admin':
+        return redirect(url_for('admin_login'))
+    conn = sqlite3.connect('database.db')
+    c = conn.cursor()
+    c.execute("UPDATE users SET approved=1 WHERE id=? AND role='admin' AND approved=0", (user_id,))
+    conn.commit()
+    conn.close()
+    return redirect(url_for('admin_approve'))
+
+@app.route('/admin/delete_request/<int:user_id>')
+@login_required
+def delete_admin_request(user_id):
+    if getattr(current_user, 'role', None) != 'admin':
+        return redirect(url_for('admin_login'))
+    conn = sqlite3.connect('database.db')
+    c = conn.cursor()
+    # Only allow deleting unapproved admins
+    c.execute("DELETE FROM users WHERE id=? AND role='admin' AND approved=0", (user_id,))
+    conn.commit()
+    conn.close()
+    return redirect(url_for('admin_approve'))
 
 @app.route('/admin/dashboard')
 @login_required
