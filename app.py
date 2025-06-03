@@ -233,7 +233,6 @@ def admin_search():
         ('10.2L-13.8L', 'annual_income BETWEEN 1020000 AND 1380000'),
         ('>13.8L', 'annual_income > 1380000')
     ]
-    
     c.execute("SELECT DISTINCT college_location FROM profiles")
     college_locations = sorted([row[0] for row in c.fetchall()])
 
@@ -266,12 +265,20 @@ def admin_search():
     query += ' LIMIT ? OFFSET ?'
     c.execute(query, params + [per_page, (page-1)*per_page])
     results = c.fetchall()
-    incomes = [row[2] for row in results]
+    # --- Correct median logic using pandas ---
+    incomes = [row[2] for row in results if row[2] is not None]
+    if incomes:
+        median_income = float(pd.Series(incomes).median())
+        min_income = min(incomes)
+        max_income = max(incomes)
+    else:
+        median_income = min_income = max_income = 0
     stats = {
-        'min': min(incomes) if incomes else 0,
-        'max': max(incomes) if incomes else 0,
-        'median': sorted(incomes)[len(incomes)//2] if incomes else 0
+        'min': min_income,
+        'max': max_income,
+        'median': median_income
     }
+    # --- End median logic ---
     conn.close()
     total_pages = ceil(total/per_page) if total else 1
     pagination_window = get_pagination_window(page, total_pages, window=8)
@@ -283,7 +290,6 @@ def admin_search():
                            current_page=page,
                            pagination_window=pagination_window,
                            college_locations=college_locations)
-
 
 @app.template_filter('comma_format')
 def comma_format_filter(value):
