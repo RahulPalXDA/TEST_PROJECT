@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'
+app.secret_key = 'MySecretKey'
 login_manager = LoginManager(app)
 
 # Pagination window helper
@@ -182,12 +182,16 @@ def admin_search():
     conn = sqlite3.connect('database.db')
     c = conn.cursor()
     income_groups = [
-        ('<4L', 'annual_income < 400000'),
-        ('4L-10L', 'annual_income BETWEEN 400000 AND 1000000'),
-        ('10L-20L', 'annual_income BETWEEN 1000000 AND 2000000'),
-        ('20L-50L', 'annual_income BETWEEN 2000000 AND 5000000'),
-        ('>50L', 'annual_income > 5000000')
+        ('<4.8L', 'annual_income < 480000'),
+        ('4.8L-7.7L', 'annual_income BETWEEN 480000 AND 770000'),
+        ('7.7L-10.2L', 'annual_income BETWEEN 770000 AND 1020000'),
+        ('10.2L-13.8L', 'annual_income BETWEEN 1020000 AND 1380000'),
+        ('>13.8L', 'annual_income > 1380000')
     ]
+    
+    c.execute("SELECT DISTINCT college_location FROM profiles")
+    college_locations = sorted([row[0] for row in c.fetchall()])
+
     filters = []
     params = []
     if request.method == 'POST':
@@ -200,6 +204,12 @@ def admin_search():
         if request.form.get('income_group'):
             selected_group = next(g for g in income_groups if g[0] == request.form['income_group'])
             filters.append(selected_group[1])
+        if request.form.get('student_name'):
+            filters.append("full_name LIKE ?")
+            params.append(f"%{request.form['student_name']}%")
+        if request.form.get('college_location'):
+            filters.append("college_location = ?")
+            params.append(request.form['college_location'])
     query = '''SELECT * FROM profiles'''
     count_query = '''SELECT COUNT(*) FROM profiles'''
     if filters:
@@ -226,7 +236,9 @@ def admin_search():
                            income_groups=income_groups,
                            total_pages=total_pages,
                            current_page=page,
-                           pagination_window=pagination_window)
+                           pagination_window=pagination_window,
+                           college_locations=college_locations)
+
 
 @app.template_filter('comma_format')
 def comma_format_filter(value):
